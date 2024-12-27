@@ -6,7 +6,7 @@ export default function Competences() {
     return (
         <div className="flex flex-col items-center p-6 min-h-screen">
             <h1 className="text-2xl font-bold mb-6 text-blue-500">Compétences</h1>
-            <p className={"text-center text-xl mb-4"}>J'ai pu avec ma formation améliorer mes compétences en Front-end, mais aussi en Back-end. Nous apprenons à être polyvalent et le plus coopératif possible.</p>
+            <p className={"text-center text-xl mb-4"}>J&apos;ai pu avec ma formation améliorer mes compétences en Front-end, mais aussi en Back-end. Nous apprenons à être polyvalent et le plus coopératif possible.</p>
             <ul className="w-3/4">
                 {competences.map((competence, index) => (
                     <li key={index} className={"mb-10"}>
